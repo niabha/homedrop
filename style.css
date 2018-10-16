@@ -1,0 +1,213 @@
+body{
+	margin: 0;
+	Padding: 0;
+	background: url(Bg.JPG);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding:70px 30px;
+}
+
+
+
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #00ccff;
+	color: #fff;
+	font-size 18px;
+	border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #7FFFD4;
+	color #000;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.loginbox a:hover
+{
+	color: #ffc107;
+}
+
+.btn{
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 240px;
+	height: 60px;
+	border-radius: 40px;
+	line-height: 60px;
+	text-align: center;
+	border:3px solid #009688;
+	display: block;
+	text-decoration: none;
+	margin: 25px auto;
+	color: #009688;
+	position: relative;
+	overflow: hidden;
+	background: transparent;
+	transition: .3s;
+}
+.btn:before
+{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #009688;
+	opacity: .5;
+	top: -100%;
+	left: 0;
+	z-index: -1;
+	transition: .3s;
+}
+
+.btn:After
+{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #009688;
+	top: -100%;
+	left: 0;
+	z-index: -1;
+	transition: .3s;
+	transition-delay: .2s;
+}
+
+.btn:hover
+{
+	color: #fff;
+}
+
+.btn:hover:before
+{
+	top: 0;
+}
+
+.btn:hover:after
+{
+	top: 0;
+}
+	
+.box{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding:70px 30px;
+}
+
+.here1{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
