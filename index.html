@@ -2,20 +2,39 @@
 <head>
 <title>Login Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-<body background="bg.jpg">
-	<div class="loginbox">
+<body oncontextmenu="return false">
+	
+
+	
 	<img src="avatar.png" class="avatar">
 	<h1>Login Here</h1>
-	<form>
+	<form name="Login">
+	<div class="loginbox">
 		<p>Username</p>
-		<input type="text" name="" placeholder="Enter Username">
+		<input type="text" name="userid" placeholder="Enter Username">
 		<p>Password</p>
-		<input type="Password" name="" placeholder="Enter Password">
-		<input type="submit" name="" Value="Login">
+		<input type="Password" name="pswrd" placeholder="Enter Password">
+		<input type="button" onclick="check(this.form)" Value="Login"/>
+		
 		<a href="#">Lost your password?</a><br>
 		<a href="#">Dont have an account?</a>
+		</div>
 	</form>
-	</div>
+	
+	<script language="javascript">
+	function check(form)
+	{
+		if(form.userid.value == "Abhi" && form.pswrd.value == "123")
+		{	
+		window.location="second.html"
+	}
+	else
+	{
+		alert("The username and password you entered don't match.")
+	}
+}	
+	
+	</script>
 	
 
 </body>
